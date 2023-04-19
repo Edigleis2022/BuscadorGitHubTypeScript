@@ -1,0 +1,21 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #FFF; /*Cor branca em todos os textos*/
+}
+
+boby {
+    background: black; /* cor de fundo*/
+    /* afasta os elementos aplicando um espaçamento interno*/
+}
+
+p{
+    text-align: center; /*alinha o texto ao centro*/
+}
+
+a{ /*Para tirar o andeline dos links do projeto*/
+    text-decoration: none;
+}
