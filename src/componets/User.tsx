@@ -20,15 +20,14 @@ const User = ({
                     <span>{location}</span>
                 </p>
             )}
-            <div className={classes
-            .stats} >
+            <div className={classes.stats} >
                 <div>
                     <p className={classes.number} >Seguindores:</p>
                     <p>{followers}</p>
                 </div>
             </div>
             <div>
-                <p className={classes.number} >Seguindo</p>
+                <p className={classes.number} >Seguindo:</p>
                 <p>{following}</p>
             </div>
             <Link to={`/repos/${login}`} >Ver melhores projetos</Link>
