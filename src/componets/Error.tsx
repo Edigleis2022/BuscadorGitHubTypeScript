@@ -5,7 +5,7 @@ const Error = () => {
         <div>
             <p>Usuário não encontrado!</p>
         </div>
-    )
-}
+    );
+};
 
-export default Error
+export default Error;
