@@ -15,19 +15,20 @@ const User = ({
             <img src={avatar_url} alt={login} />
             <h2>{login}</h2>
             {location && (
-                <p>
+                <p className={classes.location} >
                     <MdLocationPin />
                     <span>{location}</span>
                 </p>
             )}
-            <div>
+            <div className={classes
+            .stats} >
                 <div>
-                    <p>Seguindores:</p>
+                    <p className={classes.number} >Seguindores:</p>
                     <p>{followers}</p>
                 </div>
             </div>
             <div>
-                <p>Seguindo</p>
+                <p className={classes.number} >Seguindo</p>
                 <p>{following}</p>
             </div>
             <Link to={`/repos/${login}`} >Ver melhores projetos</Link>
